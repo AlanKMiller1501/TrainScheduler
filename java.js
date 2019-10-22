@@ -10,3 +10,9 @@ var config = {
 
 // Create a variable to reference the database
 var database = firebase.database();
+
+//build a capture button and prevent default
+$("addTrain").on("click", function (event)
+ {event.preventDefault ();
+    //build my variables
+}
