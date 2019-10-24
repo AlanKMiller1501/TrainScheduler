@@ -6,22 +6,20 @@
   <meta charset="UTF-8">
   <title>Train Scheduler</title>
 
-  <!-- jQuery -->
+  <!--JQuery-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-  <!-- Bootstrap  -->
+  <!--Bootstrap-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  <!-- CSS file -->
+ <!--CSS-->
   <link rel="stylesheet" href="assets/style.css">
 
-  <!-- Firebase Reference -->
+  
   <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
-
-  <!-- Moment.js Reference! -->
+<!--Moment JS-->
   <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
-
   
 </head>
 
@@ -30,21 +28,18 @@
   <!-- Div containing the entire page -->
   <div class="container">
 
-    <!-- Header for page -->
+    <!-- Header-->
     <div class="jumbotron">
       <div class="row">
+         </div>
+      <div class="row">
         <div class="col-md-12">
-          <img src="assets/images/gothamcity.png" alt="Gotham City" class="cityPic">
+          <h1 class="text-center"><strong>AMTRAK</strong></h1>
         </div>
       </div>
       <div class="row">
         <div class="col-md-12">
-          <h1 class="text-center"><strong>ACME Train Co</strong></h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <h3 class="text-center">Up to date train schedule</h3>
+          <h3 class="text-center">Up to the minute schedule</h3>
         </div>
       </div>
     </div>
@@ -54,15 +49,14 @@
 
       <div class="col-md-12">
 
-        <!-- Current scheduled trains -->
+        
         <div class="panel panel-primary">
 
-          <!-- Current train table header -->
+          
           <div class="panel-heading">
             <h3 class="panel-title"><strong>Current Train Schedule</strong></h3>
           </div>
 
-          <!-- Current train table content -->
           <div class="panel-body">
             <table class="table table-hover" id="train-table">
               <thead>
